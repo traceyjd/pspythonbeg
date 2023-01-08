@@ -85,3 +85,15 @@ if not forecast == "rain":
     print("Go Outside!")
 else:
     print("Stay inside!")
+
+#  boolean - True or False
+
+raining = True
+if raining:
+    print("Stay inside!")
+
+raining = True
+if not raining:
+    print("Go outside!")
+else:
+    print("Stay inside!")
