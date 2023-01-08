@@ -72,3 +72,16 @@ if temperature < 80 and forecast != "rain":
 else:
     print("Stay inside!")
 
+#  Logical Operator - not
+forecast = "rain"
+if not forecast == "rain":
+    print("Go Outside!")
+else:
+    print("Stay inside!")
+
+#  Update forecast
+forecast = "sunny"
+if not forecast == "rain":
+    print("Go Outside!")
+else:
+    print("Stay inside!")
