@@ -4,8 +4,19 @@ tax = .06
 total = amount + amount*tax
 print(total)
 
-
+#  Anything inside the quotes is a string, use single or double
 name = "Tracey"
 print(name)
+
+
+store_name = "Tracey's Store"
+print(store_name)
+
+#  Concat strings together
+hello = "Hello"
+name = input("Whats your name?")
+greeting = hello + " " + name
+print(greeting)
+
 
 
