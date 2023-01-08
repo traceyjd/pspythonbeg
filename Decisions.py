@@ -56,3 +56,11 @@ if temperature > 80 or temperature < 60:
 else:
     print("Enjoy the outdoors!")
 
+#  And lets you combine multiple comparisons but both need to be True for the whole statement to be True
+temperature = 75
+forecast = "rain"
+if temperature < 80 and forecast != "rain":
+    print("Go Outside!")
+else:
+    print("Stay inside!")
+
