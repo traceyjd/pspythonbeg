@@ -64,3 +64,11 @@ if temperature < 80 and forecast != "rain":
 else:
     print("Stay inside!")
 
+#  Update forecast to be sunny
+temperature = 75
+forecast = "sunny"
+if temperature < 80 and forecast != "rain":
+    print("Go Outside!")
+else:
+    print("Stay inside!")
+
