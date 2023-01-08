@@ -14,9 +14,12 @@ print(store_name)
 
 #  Concat strings together
 hello = "Hello"
-name = input("Whats your name?")
+name = input("Whats your name?\n")
 greeting = hello + " " + name
 print(greeting)
+
+
+#  Calc your age in decades
 
 
 
