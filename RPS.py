@@ -14,6 +14,10 @@ elif user_choice == "scissors" and computer_choice == "paper":
 else:
     print("You lose :( Computer wins :D")
 
+# if you need something further import it from the python library
+# docs.python.org/3/library
+# click on random and see what functions are available - to simulate rolling a dice
+
 
 
 
