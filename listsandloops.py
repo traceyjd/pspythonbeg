@@ -32,6 +32,11 @@ if word in acronyms:
 else:
     print(word + " is NOT in the list")
 
+#  Do this block of code for each string acronym in the acronyms list
+acronyms = ["LOL", "IDK", "TBH", "SMH"]
+for acronyms in acronyms:
+    print(acronyms)
+
 
 
 
