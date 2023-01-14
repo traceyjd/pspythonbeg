@@ -12,3 +12,4 @@ else:
     print("Wrong! They rolled a " + str(roll))
 
 # print("The computer rolled a " + str(roll))
+# This is from pluralsight
