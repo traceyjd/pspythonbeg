@@ -14,3 +14,4 @@ total = sum(expenses)
 print("You spent £", total, " on lunch this week.", sep="")
 
 # This is from pluralsight
+# This is from pluralsight
