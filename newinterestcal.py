@@ -27,4 +27,4 @@ for i in range(months):
     print("Paid", payment, "of which", interest_paid, "was interest.", end=" ")
     print("Now I owe", money_owed)
 
-    # This is from pluralsight
+# This is from pluralsight
