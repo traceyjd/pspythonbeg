@@ -38,6 +38,6 @@ for acronyms in acronyms:
     print(acronyms)
 
 
-
+# This is from pluralsight
 
 
