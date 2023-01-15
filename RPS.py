@@ -20,7 +20,6 @@ else:
 # click on random and see what functions are available - to simulate rolling a dice
 
 # Functions
-
 # This is from pluralsight
 
 
