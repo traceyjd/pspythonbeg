@@ -20,4 +20,5 @@ money_owed = money_owed - payment
 print("Paid", payment, "of which", interest_paid, "was interest.", end=" ")
 print("Now I owe", money_owed)
 
+
 # This is from pluralsight

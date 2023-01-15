@@ -8,4 +8,5 @@ total = sum(expenses)
 
 print("You spent £", total, sep="")
 
+
 # This is from pluralsight
