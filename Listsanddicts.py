@@ -18,3 +18,13 @@ menus = [ ["Egg Sandwich", "Bagel", "Coffee"],
           ["Soup", "Salad", "Spaghetti", "Taco"]]
 
 print(menus[0][1])
+
+# You can also use a dictionary for our menus with keys for Breakfast Lunch and Dinner
+
+menus = { "Breakfast" : ["Egg Sandwich", "Bagel", "Coffee"],
+          "Lunch" : ["BLT", "PB&J", "Turkey SAndwich"],
+          "Dinner" :  ["Soup", "Salad", "Spaghetti", "Taco"]}
+
+print("Breakfast Menu:\t", menus["Breakfast"]) # Using the keys to access each list
+print("Lunch:\t",          menus["Lunch"])
+print("Dinner:\t",         menus["Dinner"]) #
