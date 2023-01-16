@@ -3,11 +3,11 @@
 
 import requests
 
-api_key =
+api_key = "fb1a5654dbeda7dacb0c4ca2077ae634"
 city = "Edinburgh"
-url = "http://"
+url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+api_key
 
-request = request.get(url)
+request = requests.get(url)
 json = request.json()
 
 description = json.get("weather")[0].get("description")
