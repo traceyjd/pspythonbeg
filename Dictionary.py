@@ -15,5 +15,12 @@ print(acronyms)
 
 # Removing items - remove items by looking up the key
 
+acronyms = {}
 
+acronyms["LOL"] = "Laugh out loud" # Adding in values to our empty list
+acronyms["IDK"] = "I don't know"
+acronyms["TBH"] = "To be honest"
 
+del acronyms["LOL"]
+
+print(acronyms)
