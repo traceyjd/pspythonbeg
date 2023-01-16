@@ -27,4 +27,24 @@ menus = { "Breakfast" : ["Egg Sandwich", "Bagel", "Coffee"],
 
 print("Breakfast Menu:\t", menus["Breakfast"]) # Using the keys to access each list
 print("Lunch:\t",          menus["Lunch"])
-print("Dinner:\t",         menus["Dinner"]) #
+print("Dinner:\t",         menus["Dinner"])
+
+# Above we have all the menus printed on different lines but is there a better way of doing this? Yup you bet
+
+# Using a for loop to print the menu items
+
+menus = { "Breakfast" : ["Egg Sandwich", "Bagel", "Coffee"],
+          "Lunch" : ["BLT", "PB&J", "Turkey SAndwich"],
+          "Dinner" :  ["Soup", "Salad", "Spaghetti", "Taco"]}
+
+for item in menus:
+    print(item) # this defaults to just printing the keys in the menus, BUT WE WANT THE VALUES TOO, FEAR NOT DEAR FRIEND
+
+
+menus = { "Breakfast" : ["Egg Sandwich", "Bagel", "Coffee"],
+          "Lunch" : ["BLT", "PB&J", "Turkey SAndwich"],
+          "Dinner" :  ["Soup", "Salad", "Spaghetti", "Taco"]}
+
+for name, menu in menus.items(): # Now the loop has access to both the key and the value here
+    print(name, ":", menu)
+
