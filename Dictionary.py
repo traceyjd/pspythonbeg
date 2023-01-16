@@ -47,7 +47,25 @@ acronyms["TBH"] = "To be honest"
 
 definition = acronyms.get("BTW") # Using get wont crach your program
 
-if definition:
+if definition: # False becasue defiition is None - its not in dictionary
     print(definition)
 else:
-    print("Key does not exisit")
+    print("Key does not exisit") # So this is run
+
+
+#  Using dictionary to translate a sentence
+acronyms = {}
+
+acronyms["LOL"] = "Laugh out loud" # Adding in values to our empty list
+acronyms["IDK"] = "I don't know"
+acronyms["TBH"] = "to be honest"
+
+sentence = "IDK" + " what happened " + "TBH"
+translation = acronyms.get("IDK") + " what happened " + acronyms.get("TBH") # Look up the value of each acronym in the
+# aconyms dictionary
+
+print("sentence:", sentence)
+print("translation:", translation)
+
+
+
