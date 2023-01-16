@@ -48,3 +48,14 @@ menus = { "Breakfast" : ["Egg Sandwich", "Bagel", "Coffee"],
 for name, menu in menus.items(): # Now the loop has access to both the key and the value here
     print(name, ":", menu)
 
+# Using Dictionaries to Represent Objects
+#  Lets say we have a person and we ant to represent their attributes, such as their name, age, and city theyre from.
+# We could use a dictionary where the attributes are saved as key, value pairs.
+
+person = {"name": "Sarah Smith",
+          "city": "Orlando",
+          "age": "100"}
+
+print(person.get("name"), "is", person.get("age"), "years old")
+
+
