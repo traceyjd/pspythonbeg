@@ -24,3 +24,13 @@ acronyms["TBH"] = "To be honest"
 del acronyms["LOL"]
 
 print(acronyms)
+
+#  Get an item that might not be there
+acronyms = {}
+
+acronyms["LOL"] = "Laugh out loud" # Adding in values to our empty list
+acronyms["IDK"] = "I don't know"
+acronyms["TBH"] = "To be honest"
+
+definition = acronyms.get("BTW") # Using get wont crach your program
+print(definition)
