@@ -55,12 +55,15 @@ def addition(a, b):
     return a + b # The return keyword is used to return a value or even a s sequence of values. # This code here is the Function definition
 
 # Main Program
-num1 = float(input("Enter your first number:\n"))
-num2 = float(input("Enter your second number:\n"))
+def main():
+    num1 = float(input("Enter your first number:\n"))
+    num2 = float(input("Enter your second number:\n"))
 
 # call the function
-result = addition(num1, num2)
-print("The result is", result)
+    result = addition(num1, num2)
+    print("The result is", result)
 
-# Much better
+main()
+
+# Much better, much neater
 
