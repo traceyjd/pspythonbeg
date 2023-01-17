@@ -43,3 +43,24 @@ greeting(name2)
 
 # The above asks for name 1 and sends to function and prints Hello Name1 then the same with name2
 
+# Reasons to create functions
+# You want to reuse that chunk of code over and over
+
+# Organise your code by logical units
+
+
+# We want a simple function that adds two numbers and returns the result
+# def keyword # function name # 2 parameters a & b
+def addition(a, b):
+    return a + b # The return keyword is used to return a value or even a s sequence of values. # This code here is the Function definition
+
+# Main Program
+num1 = float(input("Enter your first number:\n"))
+num2 = float(input("Enter your second number:\n"))
+
+# call the function
+result = addition(num1, num2)
+print("The result is", result)
+
+# Much better
+
