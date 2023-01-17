@@ -27,3 +27,19 @@ def greeting():
 # Main Program
 name = input("Enter your name:\n") # The variable name is global
 greeting()                         # We dont need a parameter for greeting() since it can reference the global variable
+
+#  THIS CAN BECOME MESSY SO BE SURE YOU WANT THESE GLOBAL, the name variable is still used so what if we want to ask the
+#  user for another name - check out python for beginners course Functions - 4:58
+#  Lets try example again with local scope
+
+def greeting(name):             #  The function needs to be defined first
+    print("Hello", name)
+
+#  Main Program
+name1 = input("Enter your name:\n")
+greeting(name1)
+name2 = input("Enter your name:\n")
+greeting(name2)
+
+# The above asks for name 1 and sends to function and prints Hello Name1 then the same with name2
+
