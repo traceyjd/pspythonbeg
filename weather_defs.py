@@ -19,10 +19,14 @@ def get_weather_desc_and_temp():
             "temp_min": temp_min,
             "temp_max": temp_max}
 
-# Print Results
-weather_dict = get_weather_desc_and_temp()
-print("Todays forecast is", weather_dict.get("description"))
-print("The minimum temperature is", weather_dict.get("temp_min"))
-print("The maximum temperature is", weather_dict.get("temp_max"))
 
+def main():
+    weather_dict = get_weather_desc_and_temp()
+    # Print Results
+    print("Todays forecast is", weather_dict.get("description"))
+    print("The minimum temperature is", weather_dict.get("temp_min"))
+    print("The maximum temperature is", weather_dict.get("temp_max"))
+
+
+main()
 
